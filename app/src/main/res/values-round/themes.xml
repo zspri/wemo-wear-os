@@ -1,0 +1,5 @@
+<resources>
+    <style name="MyTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+</resources>

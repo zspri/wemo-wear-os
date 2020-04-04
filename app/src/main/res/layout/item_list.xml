@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/toggle_button"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:background="@drawable/round_corners"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lightbulb"
+        android:textSize="10sp" />
+
+</LinearLayout>
